@@ -6,6 +6,7 @@
             margin-left: 2%; 
             margin-right: 2%; 
             text-align: center; 
+            border: white 5px solid; 
         }
 body{
             font-family: 'Courier New', Courier, monospace; 
@@ -20,17 +21,18 @@ body{
             background-color: lightblue;
             padding-top: 3%; 
             padding-bottom: 3%;
-            border-radius: 5%; 
+            border-radius: 10%; 
             margin-left: 10px; 
             margin-right: 10px; 
+            border: white 5px solid; 
             
         }
 img {
     border-radius: 25%; 
+    border: white 5px solid; 
     /* display: block;
     margin: auto;   */
     width: 400px; 
-    border-color: white; 
 }
 
 span {
