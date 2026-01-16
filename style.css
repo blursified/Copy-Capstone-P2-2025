@@ -11,22 +11,14 @@
 body{
             font-family: 'Courier New', Courier, monospace; 
             background-color: lightskyblue; 
+            margin-left: 2%; 
+            
         }
 
 .underline {
             text-decoration: underline;
         }
 
-.list {
-            background-color: lightblue;
-            padding-top: 3%; 
-            padding-bottom: 3%;
-            border-radius: 10%; 
-            margin-left: 10px; 
-            margin-right: 10px; 
-            border: white 5px solid; 
-            
-        }
 img {
     border-radius: 25%; 
     border: white 5px solid; 
@@ -39,6 +31,48 @@ span {
     text-decoration: underline; 
 }
 
+.mainlist {
+            background-color: lightblue;
+            padding-top: 3%; 
+            padding-bottom: 3%;
+            border-radius: 10%; 
+            margin-left: 10px; 
+            margin-right: 10px; 
+            border: white 5px solid; 
+            
+        }
+
 .footer {
     text-align: center; 
+    text-decoration: underline; 
+    text-decoration-style: dashed; 
+    text-decoration-thickness: 1px; 
+    background: rgb(169, 192, 241); 
+    padding-top: 10px; 
+    margin-top: 10px; 
+    padding-bottom: 2px; 
+    border: white 3px dashed; 
+     border-radius: 10px;
+}
+
+.main {
+    background-color: rgb(195, 221, 248); 
+    border-radius: 10px;
+    padding-top: 5px; 
+    padding-left: 3%; 
+    padding-right: 3%; 
+    border: white 3px dashed; 
+}
+
+.header {
+    background: rgb(169, 192, 241); 
+    padding-top: 10px; 
+    margin-top: 10px; 
+    padding-bottom: 2px; 
+    border: white 3px dashed; 
+    
+}
+
+#title {
+    text-decoration-style: double;  
 }
