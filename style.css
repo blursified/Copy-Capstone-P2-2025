@@ -7,6 +7,7 @@
             margin-right: 2%; 
             text-align: center; 
             border: white 5px solid; 
+            font-size: 35px;
         }
 body{
             font-family: 'Courier New', Courier, monospace; 
@@ -39,7 +40,7 @@ span {
             margin-left: 10px; 
             margin-right: 10px; 
             border: white 5px solid; 
-            
+            text-align: left; 
         }
 
 .footer {
@@ -52,7 +53,17 @@ span {
     margin-top: 10px; 
     padding-bottom: 2px; 
     border: white 3px dashed; 
-     border-radius: 10px;
+    border-radius: 10px;
+    
+}
+
+.mini {
+    font-size: 10px; 
+}
+
+.sidenotes {
+     color: rgb(57, 88, 167); 
+     font-size: 20px; 
 }
 
 .main {
